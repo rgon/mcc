@@ -1,0 +1,27 @@
+{
+  "name": "mcc",
+  "version": "1.0.0",
+  "description": "API to get Merchant Category Codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christophior/mcc.git"
+  },
+  "keywords": [
+    "mcc",
+    "merchant",
+    "category",
+    "codes",
+    "merchant",
+    "codes"
+  ],
+  "author": "Chris Villarreal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christophior/mcc/issues"
+  },
+  "homepage": "https://github.com/christophior/mcc#readme"
+}
