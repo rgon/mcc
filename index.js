@@ -2,9 +2,14 @@
 
 var categoryCodes = require('./mcc_codes');
 
-module.exports = function (mcc) {
+function getMCC(mcc) {
 	mcc = parseInt(mcc);
 	return categoryCodes.find(function (categoryCode) {
 		return categoryCode.mcc == mcc;
 	})
+};
+
+module.exports = {
+	get: getMCC,
+	all: categoryCodes
 };
