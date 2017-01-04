@@ -21,10 +21,10 @@ api.get("0742"); // api.get("742") & api.get(742) also works
   irs_reportable: 'Yes',
   id: 0 
 }
+*/
 
 api.all;
 // returns array of all merchant category codes
-*/
 ```
 
 ### Fields
