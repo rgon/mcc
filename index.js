@@ -1,6 +1,7 @@
 'use strict';
 
 var categoryCodes = require('./mcc_codes');
+var emojiMap = require('./emojiMap');
 
 function getMCC(mcc) {
 	mcc = parseInt(mcc);
@@ -9,7 +10,12 @@ function getMCC(mcc) {
 	})
 };
 
+function getMCCByEmoji(emoji) {
+	return emojiMap[emoji];
+};
+
 module.exports = {
 	get: getMCC,
+	getByEmoji: getMCCByEmoji,
 	all: categoryCodes
 };

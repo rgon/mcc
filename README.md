@@ -25,6 +25,13 @@ api.get("0742"); // api.get("742") & api.get(742) also works
 
 api.all;
 // returns array of all merchant category codes
+
+
+// returns all mcc ids for given emoji
+api.getByEmoji('🏈');
+/*
+[ 7941, 7997, 7999, 5655, 5941 ]
+*/
 ```
 
 ### Fields
