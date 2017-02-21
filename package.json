@@ -1,6 +1,6 @@
 {
   "name": "mcc",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "API to get Merchant Category Codes",
   "main": "index.js",
   "scripts": {
