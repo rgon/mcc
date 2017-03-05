@@ -4,7 +4,9 @@
   "description": "API to get Merchant Category Codes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node emojiGenerator/emojiMapGenerator.js",
+    "prepublish": "npm test && npm run build",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,12 @@
   "bugs": {
     "url": "https://github.com/christophior/mcc/issues"
   },
-  "homepage": "https://github.com/christophior/mcc#readme"
+  "homepage": "https://github.com/christophior/mcc#readme",
+  "dependencies": {
+    "jsonfile": "^2.4.0"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.4",
+    "mocha": "^3.2.0"
+  }
 }
