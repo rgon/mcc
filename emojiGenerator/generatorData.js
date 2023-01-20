@@ -588,7 +588,7 @@ const mccCategories = {
 	"Intra-Company Purchases": ["9950"]
 };
 
-module.exports = {
-	mccCategories: mccCategories,
-	mccEmojis: mccEmojis
-};
+export {
+	mccCategories,
+	mccEmojis
+}
