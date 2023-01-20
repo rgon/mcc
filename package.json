@@ -3,6 +3,7 @@
   "version": "2.2.0",
   "description": "API to get Merchant Category Codes",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "build": "node emojiGenerator/emojiMapGenerator.js",
     "prepublish": "npm test && npm run build",
