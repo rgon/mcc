@@ -1,9 +1,8 @@
 {
   "name": "mcc",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "API to get Merchant Category Codes",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "index.ts",
   "scripts": {
     "build": "node emojiGenerator/emojiMapGenerator.js",
     "prepublish": "npm test && npm run build",
@@ -11,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/christophior/mcc.git"
+    "url": "git+https://github.com/rgon/mcc.git"
   },
   "keywords": [
     "mcc",
@@ -24,9 +23,9 @@
   "author": "Chris Villarreal",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/christophior/mcc/issues"
+    "url": "https://github.com/rgon/mcc/issues"
   },
-  "homepage": "https://github.com/christophior/mcc#readme",
+  "homepage": "https://github.com/rgon/mcc#readme",
   "dependencies": {
     "jsonfile": "^2.4.0"
   },
